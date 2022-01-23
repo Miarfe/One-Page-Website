@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+	<link rel = "stylesheet" type = "text/css" href = "css/navbar.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="topnav">
+	<a href="index.html">Home</a>
+	<a class="active" href="contact form.html">Contact Form</a>
+	<a href="videos.html">Video</a>
+	</div>
+
+    <div>
+        
+        <!--Add few elements to the form-->
+
+        <div>
+            <input type="text" id="txtName" placeholder="Enter your name" />
+        </div>
+        <div>
+            <input type="text" id="txtAge" placeholder="Enter your age" />
+        </div>
+        <div>
+            <input type="text" id="txtEmail" placeholder="Enter your email address" />
+        </div>
+        <div>
+            <select id="selCountry">
+                <option selected value="">-- Choose the country --</option>
+                <option value="England">England</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+				<option value="Spain">Sapin</option>
+				<option value="France">France</option>
+				<option value="Latvia">Latvia</option>
+				<option value="Poland">Poland</option>
+            </select>
+        </div>
+        <div>
+            <textarea id="msg" name="msg" placeholder="Write some message ..." style="height:100px"></textarea>
+        </div>
+
+        <!--Add to button to save the data.-->
+        <div>
+            <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+        </div>
+    </div>
+</body>
+<script>
+    let saveFile = () => {
+    	
+        // Get the data from each element on the form.
+    	const name = document.getElementById('txtName');
+        const age = document.getElementById('txtAge');
+        const email = document.getElementById('txtEmail');
+        const country = document.getElementById('selCountry');
+        const msg = document.getElementById('msg');
+        
+        // This variable stores all the data.
+        let data = 
+            '\r Name: ' + name.value + ' \r\n ' + 
+            'Age: ' +age.value + ' \r\n ' + 
+            'Email: ' + email.value + ' \r\n ' + 
+            'Country: ' + country.value + ' \r\n ' + 
+            'Message: ' + msg.value;
+        
+        // Convert the text to BLOB.
+        const textToBLOB = new Blob([data], { type: 'text/plain' });
+        const sFileName = 'formData.txt';	   // The file to save the data.
+
+        let newLink = document.createElement("a");
+        newLink.download = sFileName;
+
+        if (window.webkitURL != null) {
+            newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+        }
+        else {
+            newLink.href = window.URL.createObjectURL(textToBLOB);
+            newLink.style.display = "none";
+            document.body.appendChild(newLink);
+        }
+
+        newLink.click(); 
+    }
+</script>
+<footer>
+  <p>Author: Efraim Ie<br>
+  <a href="https://efraimie.co.uk/" target="_blank">Web-Portfolio</a></p>
+  <a href="mailto:efraim.ie@gmail.com">efraim.ie@gmail.com.com</a></p>
+  <a href="https://github.com/Miarfe" style="font-size:24px" target="_blank">GitHub <i class="fa fa-github"></i></button>
+</footer>
+</html>

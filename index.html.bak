@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<link rel = "stylesheet" type = "text/css" href = "css/navbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="topnav">
+	<a class="active" href="index.html">Home</a>
+	<a href="contact form.html">Contact Form</a>
+	<a href="videos.html">Video</a>
+	</div>
+
+<h1>This is a index page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor lacinia tempus. Vestibulum non odio tellus. In diam nisi, convallis ac mi a, egestas rhoncus mauris. Maecenas quis lorem sit amet dolor euismod tincidunt. Mauris imperdiet tellus id diam bibendum mollis. Aliquam sagittis tortor congue erat aliquam, eu dapibus augue pellentesque. Mauris non nisl vel eros hendrerit vestibulum quis nec nisi. In vitae mauris quis odio sollicitudin imperdiet nec quis est. Proin posuere congue quam, aliquet rhoncus lectus luctus vel. Integer eu augue lorem. Donec pulvinar augue nisl, vel tristique odio finibus eu. Nam at purus quis ante tempor interdum. Vestibulum placerat ac nulla et placerat. Curabitur facilisis dolor eu dui suscipit, imperdiet vestibulum justo malesuada. Mauris at sollicitudin orci.</p>
+
+<p>Proin a lectus non augue faucibus fringilla et at ipsum. Integer ultricies nec tellus vitae commodo. Donec ullamcorper purus sit amet porttitor aliquam. Pellentesque nec varius leo. Duis leo mauris, feugiat eget iaculis et, elementum in elit. Donec libero elit, eleifend eu ultricies ut, vulputate blandit enim. Duis placerat massa quis ligula sagittis vehicula. Aliquam in ipsum sit amet lectus venenatis ultricies. Mauris ullamcorper, elit ut tincidunt faucibus, risus metus lacinia risus, eu maximus lectus enim non lorem. Ut egestas, libero eu volutpat commodo, nibh dui sollicitudin arcu, et lacinia urna turpis sit amet ipsum. Nam lobortis arcu vel ligula mattis, a viverra enim convallis. Duis volutpat viverra est, a feugiat leo. Donec sed leo vitae nibh ultrices accumsan et quis magna.</p>
+
+<p>Morbi massa nibh, sodales non varius a, posuere sed odio. Aliquam fermentum tempor diam, sed vulputate velit placerat eu. Cras auctor purus quis massa ultricies dictum. Aenean varius tincidunt scelerisque. Phasellus ac elit sit amet quam condimentum auctor ut eu est. Suspendisse feugiat turpis ipsum, sed dictum erat maximus ac. Morbi pharetra, nulla eu semper vehicula, arcu tellus auctor nulla, vehicula molestie sapien ipsum ut quam. Phasellus facilisis a metus in placerat. Donec eu lobortis diam, nec porttitor erat. In egestas odio erat, nec rhoncus arcu ultricies sit amet. Maecenas quis est ut orci iaculis porta a sit amet ipsum. Nunc in mauris quis ligula vestibulum condimentum.</p>
+
+<p>Sed faucibus sollicitudin sapien. Praesent odio enim, cursus quis elementum eu, interdum vel ligula. Curabitur ultricies ultrices massa, ut malesuada nunc mollis condimentum. Nulla mattis tortor eu auctor mattis. In hac habitasse platea dictumst. Suspendisse ultricies fringilla bibendum. Etiam bibendum in quam nec dictum. Morbi finibus mauris non lectus tempor, nec pharetra dui porta. Phasellus ultrices mi rhoncus iaculis rhoncus. Suspendisse a eleifend diam. Vivamus pharetra elit vel vestibulum hendrerit. Phasellus orci justo, elementum et rutrum a, bibendum quis felis. Morbi ipsum neque, varius ut condimentum et, sodales in ex. Fusce tincidunt dolor vel eros posuere consequat.</p>
+
+<p>Praesent sit amet lectus hendrerit, finibus libero id, consequat purus. Fusce vitae magna ac magna molestie pharetra eget sed nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi vestibulum sem sed neque imperdiet, non hendrerit mi efficitur. Donec a massa quis nunc facilisis vehicula sit amet et dolor. Vivamus elementum aliquet nulla, ut laoreet risus dictum at. Cras egestas convallis enim, sit amet iaculis elit sodales eu. Praesent et feugiat nisl, in malesuada leo. Vestibulum augue felis, pretium vel dapibus et, ultricies quis eros. Aenean odio justo, ornare in convallis a, dictum placerat sapien. Fusce elementum, odio eu blandit rhoncus, lectus purus cursus purus, fermentum fringilla justo sem id orci.</p>
+<footer>
+  <p>Author: Efraim Ie<br>
+  <a href="https://efraimie.co.uk/">Web-Portfolio</a></p>
+  <a href="mailto:efraim.ie@gmail.com">efraim.ie@gmail.com.com</a></p>
+  <a href="https://github.com/Miarfe" style="font-size:24px">GitHub <i class="fa fa-github"></i></button>
+</footer>
+</body>
+</html>
